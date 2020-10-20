@@ -1,4 +1,4 @@
-# Nuno Alves Blog Examples and Tutorials
+# Blog Examples and Tutorials
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/nunorralves/nunorralves-website)
 ![GitHub contributors](https://img.shields.io/github/contributors/nunorralves/blog-examples-tutorials)
