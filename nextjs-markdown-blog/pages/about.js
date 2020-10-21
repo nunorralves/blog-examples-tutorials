@@ -1,13 +1,11 @@
 import Layout from "../components/Layout";
 
-const Index = ({ title, description, ...props }) => {
+const About = ({ title, description, ...props }) => {
   return (
-    <Layout title={title}>
+    <Layout title={`${title} - About`}>
       <h1>{title}</h1>
       <p>{description}</p>
-      <main>
-        <p>Blog Posts here!</p>
-      </main>
+      <p>This is my About Page!</p>
     </Layout>
   );
 };
@@ -23,4 +21,4 @@ export const getStaticProps = async () => {
   };
 };
 
-export default Index;
+export default About;
