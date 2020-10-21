@@ -25,7 +25,6 @@ const Post = ({ title, frontmatter, markdownContent }) => {
 };
 
 export const getStaticProps = async ({ ...ctx }) => {
-  console.log("NAME:", ctx);
   const { slug } = ctx.params;
 
   const siteConfig = await import("../../site.config.json");
